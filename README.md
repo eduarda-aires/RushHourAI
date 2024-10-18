@@ -18,17 +18,15 @@ Make sure you are running Python 3.7 or higher. Follow these steps to set up the
    ```bash
    git clone https://github.com/yourusername/ia-rush.git
    cd ia-rush
-   ```
 2. **Create a virtual environment (recommended)**:
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # On macOS/Linux
-  venv\Scripts\activate     # On Windows
-  ```
-3.**Install the required dependencies:**:
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate     # On Windows
+
+2. **Install the required dependencies**:
+   ```bash
+    pip install -r requirements.txt
 
 ## 🎮 How to Play
 To play the game, open three terminals and run the following commands in each terminal make sure the client pygame window has focus:
